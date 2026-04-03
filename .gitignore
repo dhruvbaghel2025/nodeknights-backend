@@ -1,0 +1,113 @@
+# =========================
+
+# Node.js Dependencies
+
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+
+# Environment Variables
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# Firebase / Secrets
+
+# =========================
+
+firebase-service-account.json
+
+# =========================
+
+# Logs
+
+# =========================
+
+logs/
+*.log
+
+# =========================
+
+# OS Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# VS Code Settings
+
+# =========================
+
+.vscode/
+!.vscode/extensions.json
+
+# =========================
+
+# Build / Output
+
+# =========================
+
+dist/
+build/
+out/
+
+# =========================
+
+# Coverage
+
+# =========================
+
+coverage/
+
+# =========================
+
+# Docker (optional)
+
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+
+# Temporary Files
+
+# =========================
+
+tmp/
+temp/
+
+# =========================
+
+# Misc
+
+# =========================
+
+*.swp
+*.swo
+
+# =========================
+
+# Duplicate Lock Files Fix
+
+# =========================
+
+# (Keep only one lock file if needed)
+
+package-lock.json
+
+# OR if using yarn:
+
+# yarn.lock
